@@ -1,0 +1,1045 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+a,
+a:hover {
+
+    text-decoration: none;
+
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-family: Rubik, sans-serif;
+    font-size: 20px;
+    color: #33B9CB;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+p {
+
+    font-weight: 400;
+    line-height: 30px;
+    color: #091D3E;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 58px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0px 0px 20px;
+    padding: 0px 0px 25px;
+}
+
+h3 {
+    letter-spacing: 4px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #33B9CB;
+    font-size: 16px !important;
+}
+
+/* -----------hero-section start------------------ */
+
+.herosection {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(../images/header.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+}
+
+header {
+    box-shadow: 3px 3px 6px rgb(117, 115, 115);
+}
+
+
+.appointment-btn {
+    color: white;
+    padding: 8px;
+    background-color: #33B9CB;
+    border: 2px solid #33B9CB;
+    border-radius: 3px;
+
+}
+
+.appointment-btn:hover {
+    background-color: white;
+    color: #33B9CB;
+}
+
+.hero-heading-1 {
+    line-height: 70px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: #091D3E;
+    margin-left: 5rem;
+    padding-top: 15rem;
+}
+
+.hero-heading-2 {
+    font-size: 68px !important;
+    line-height: 85px;
+    letter-spacing: -0.7px;
+    font-weight: 700;
+    color: #091D3E;
+    margin-top: 50px;
+    margin-left: 5rem;
+
+}
+
+.hero-heading-3 button {
+    background-color: #33B9CB;
+    border: 1px solid #33B9CB;
+    border-radius: 4px;
+}
+
+/* -----------hero-section end------------------ */
+
+.appointment {
+    margin-top: -100px;
+
+    width: 80%;
+    background: #fff;
+}
+
+.appointment-logo {
+    width: 20% !important;
+}
+
+/* ------------end of appointmrnt-------------- */
+
+
+/* ---------------sstart of Community---------- */
+
+.community-heading h2 {
+    font-size: 46px;
+    line-height: 58px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0px 0px 20px;
+    padding: 0px 0px 25px;
+}
+
+
+.ser-1 {
+    position: relative;
+    z-index: 10;
+
+
+    overflow: hidden;
+}
+
+.ser-1 img {
+    transition: transform 0.30s ease;
+}
+
+.ser-1:hover img {
+    transform: scale(1.28);
+}
+
+.ser-2 {
+    position: relative;
+    z-index: 100;
+    margin-top: -50px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.read-btn {
+    /* padding: 10px 100px; */
+    width: 260px;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #33B9CB;
+}
+
+.read-btn:hover {
+    background-color: #33B9CB;
+    border: 2px solid #33B9CB;
+}
+
+
+
+/* --------------service - 2 start-------------------- */
+
+.services img {
+    transition: 1s;
+}
+
+/* .services img:hover {
+    transform: scale(-0.8);
+} */
+.service-2 {
+
+    background: #091D3E;
+
+    height: 80vh;
+    color: #fff;
+    border-color: grey;
+
+}
+
+.elipse {
+    width: 103%;
+    position: relative;
+    z-index: 55;
+    top: -405px;
+    left: 550px;
+
+
+}
+
+
+.elipse2 {
+    position: relative;
+    z-index: 56;
+    top: -685px;
+    margin-bottom: 100px;
+    margin: 0 150px;
+    width: 80%;
+
+}
+
+.ss {
+    box-shadow: 2px 2px 4px grey;
+}
+
+.elipse3 {
+    width: 45%;
+    height: 20vh;
+    position: relative;
+    left: 700px;
+    z-index: 57;
+    /* background:  #33B9CB; */
+    top: -325px
+}
+
+.tech {
+    /* width: 24%; */
+}
+
+.tech {
+    border-right: 2px solid grey !important;
+}
+
+.service-2 img {
+    width: 40% !important;
+    color: #33B9CB;
+}
+
+.abs {
+
+    margin-top: 130px 0 !important;
+    margin-left: 250px;
+
+}
+
+
+
+.border-right {
+    border-right: 1px solid;
+    margin: 10px 0;
+}
+
+.technique {
+    background: #fff;
+
+}
+
+/* --------------service - 2 end-------------------- */
+
+
+/* -------------start doctor --------------------*/
+
+.doctor {
+    padding: 190px 0;
+    margin-top: 50px;
+}
+
+.doc h2,
+.doc h3 {
+    margin-left: 120px;
+}
+
+.doc2 {
+    /* margin-left: 400px !important; */
+
+}
+
+.images {
+    display: none;
+}
+
+
+.doctors {
+    margin-left: 190px;
+    background: #F8F8F8;
+}
+
+.border-icon {
+    margin: 0 80px;
+    padding: 10px 0;
+    border-radius: 22px;
+    width: 150px;
+}
+
+/* --------------------------end doctor---------------- */
+
+/* ----------------start study-------------------------- */
+.study {
+    background: #F8F8F8;
+}
+
+
+.box img {
+    width: 100%;
+}
+
+.cap {
+    margin-bottom: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.caps {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 150px;
+}
+
+.cap img,
+.caps img {
+    width: 100%;
+    height: auto;
+}
+
+.contents {
+    background: #fff;
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 20%;
+    margin-left: 50px;
+    color: black;
+    border-radius: 12px;
+    transition: all 0.5s;
+
+}
+
+.content {
+    background: #fff;
+    position: absolute;
+    top: 75%;
+    left: -100%;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    height: 20%;
+    margin-left: 50px;
+    color: black;
+    border-radius: 12px;
+    transition: all 0.5s;
+    margin-bottom: 5px !important;
+}
+
+.cap:hover .content {
+    left: 0;
+}
+
+.box {
+    position: relative;
+
+}
+
+.rate div {
+
+    height: 35vh;
+    border: 2px solid salmon;
+    background-color: #12274A;
+    border: 1px solid #12274A;
+    padding: 15px 0;
+}
+
+.review {
+    background-color: #091D3E;
+    padding: 50px 0;
+    color: #fff !important;
+}
+
+
+.rate-2 div {
+
+    height: 45vh;
+    /* border: 2px solid firebrick; */
+    width: 47%;
+
+}
+
+.rate .per {
+    display: inline;
+    color: white;
+
+}
+
+
+
+.rate-2 {
+    margin-left: 100px;
+    padding: 10px 50px;
+    /* width: 120%; */
+}
+
+.care-1 {
+    background: url(../images/intro01.webp)no-repeat center center/cover;
+}
+
+.review img {
+    width: 40%;
+
+}
+
+.review span {
+    color: #091D3E;
+    font-size: 46px;
+    line-height: 58px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.rate div {
+    border-bottom: 2px solid #33B9CB;
+    margin: 0 20px !important;
+}
+
+.care {
+    background: #33B9CB;
+    color: #fff;
+}
+
+/* ---------------------------end reviwe------------------ */
+
+
+/* ----------start processs-------------------- */
+.process {
+    padding: 150px 0;
+}
+
+.work-process img {
+    width: 70%;
+}
+
+.work-process h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+/* -------------end of process-  ----------------- */
+
+/* --------------start of contact------------------- */
+
+.contacts {
+    background: #091D3E;
+    color: #fff;
+    padding: 80px 90px;
+}
+
+form input {
+    height: 7.2vh;
+}
+
+.submit {
+    margin-left: 140px !important;
+    padding: 12px 70px;
+    background-color: #33B9CB;
+}
+
+.logo img {
+    width: 10%;
+    margin-top: -940px;
+    margin-left: 45%;
+    background: #fff;
+    padding: 40px;
+    border-radius: 35%;
+}
+
+/* --------------end of contact---------------------- */
+
+
+/* ------------STRART OF DENTAL------------------ */
+
+.dental p {
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.dental img {
+    height: 40vh;
+}
+
+.dental-box {
+
+    background: #fff;
+    width: 85%;
+    border: 3px solid #33B9CB;
+}
+
+/* ----------------end of dental--------------------*/
+
+
+.sub-news {
+    margin-top: 200px !important;
+}
+
+/* ------------------start footer-1-------------------- */
+
+.footer-1 h1 {
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    line-height: 58px;
+    font-size: 46px;
+}
+
+.footer-1 {
+
+    margin: 150px 190px;
+    padding: 50px 50px;
+    /* margin: 190px 0; */
+    background: #33B9CB;
+
+
+}
+
+.footer-1 input {
+    padding-bottom: 40px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 50;
+}
+
+.footer-1 button {
+    padding: 5px !important;
+    height: 8vh;
+    padding: 5px 20px;
+    margin-top: 24.8px;
+    margin-left: -112px !important;
+    position: relative;
+    z-index: 100;
+    background: #33B9CB;
+    border-radius: 4px;
+    border-color: #33B9CB;
+}
+
+/* .contact{
+   position: relative !important;
+   top:180px !important;
+} */
+/* -------------------end footer-1------------------------ */
+
+/* ------------------footer-2------------------------ */
+
+.main-footer {
+    background-color: #152847;
+    color: #fff !important;
+    padding-top: 240px;
+}
+
+
+.main-footer i {
+    color: #33B9CB;
+    margin-left: 5px;
+}
+
+
+
+.main-footer {
+    background-color: #152847;
+}
+
+.main-footer a {
+    color: black;
+
+}
+
+
+.date i {
+    color: black;
+}
+
+.main-footer div {
+    padding: 20px 10px;
+
+}
+
+.main-footer p {
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 29px;
+}
+
+.main-footer li {
+    margin: 40px 0;
+    font-weight: 200;
+}
+
+/* -------------------end footer-2------------------- */
+
+
+/* -------------------footer-3----------------------- */
+
+.footer-3 {
+    background-color: #1B2F4D;
+    height: 25vh;
+    padding: 70px 0;
+}
+
+.footer-3 img {
+    width: 40%;
+    /* margin-top: 80px; */
+}
+
+.final div {
+    margin: 300px 0;
+}
+
+.main-footer p,
+.footer a {
+    color: #fff;
+}
+
+/* -------------------footer-3 end----------------------- */
+
+@media only screen and (max-width:1220px) {
+    .read-btn {
+        width: 150px;
+    }
+
+
+    .abs {
+        margin: 10px 0 !important;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:992px) {
+    body {
+        text-align: center;
+    }
+
+    .main{
+        padding: 2px;
+    }
+    .book {
+        display: none;
+    }
+
+    .review {
+        height: 240vh;
+    }
+
+    .services {
+        margin-top: 50px;
+    }
+
+    .service-2 {
+        height: 80vh;
+    }
+
+    .services div {
+        margin: 5px 0 !important;
+    }
+
+    .abs {
+        position: relative;
+
+    }
+
+    .elipse3 {
+        position: relative;
+
+    }
+
+    .elipse2 {
+        position: relative;
+        display: none;
+
+    }
+
+    .elipse {
+        position: relative;
+        right: 150px !important;
+
+
+    }
+
+    .technique {
+        position: relative;
+        right: 140px !important;
+        top: 450px;
+        border: 5px solid red !important;
+    }
+
+    .elipse img {
+        position: absolute;
+        z-index: 58;
+        width: 55% !important;
+        right: 100px;
+
+
+    }
+
+    .elipse3 img {
+        position: relative;
+        width: 90% !important;
+        z-index: 60;
+    }
+
+
+
+
+    .tech {
+        border: 3px solid white !important;
+    }
+
+    .doc {
+        position: relative;
+        right: 100px;
+    }
+
+    .border-icon {
+        margin: 15px 0;
+        margin-left: 262px !important;
+        position: relative;
+        left: -50px;
+    }
+
+    .review {}
+}
+
+
+
+
+
+@media only screen and (max-width:575px) {
+    body {
+        cursor: pointer;
+
+    }
+
+    .appointment {
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .community-heading {
+        margin: 10px;
+    }
+
+    .book {
+        display: none;
+    }
+
+    .service-2 {
+        height: 70vh !important;
+    }
+
+    .service-2 h2{
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    .abs {
+        position: relative;
+        left: 40px;
+    }
+
+    .hero-heading-1 h6 {
+        margin-top: -150px;
+        margin-left: -50px;
+    }
+
+    .hero-heading-2 h2 {
+        margin-top: -150px;
+        margin-left: -70px;
+    }
+
+    .hero-heading-3 button {
+        margin-left: -70px !important;
+    }
+
+
+
+    .abs h2 {
+        font-size: 40px;
+        letter-spacing: -1px;
+        line-height: 58px;
+        font-weight: 500;
+    }
+
+    .abs p {
+        line-height: 30px;
+        font-weight: 400;
+        width: 84%;
+        text-align: center;
+
+    }
+
+
+
+    .tech {
+        width: 100% !important;
+
+        background: #fff;
+
+    }
+
+    .border-icon {
+        margin-left: 160px !important;
+    }
+
+    .services div {
+        margin: 5px 0 !important;
+    }
+
+    .technique {
+        margin-top: 561px;
+        border: 2px solid red !important;
+        height: 250vh;
+        display: block;
+        padding: 0 0;
+
+
+    }
+
+    .tech-box {
+        height: 50vh;
+        border: 5px solid sandybrown;
+    }
+
+    .doctor {
+        text-align: center;
+
+    }
+
+    .doctor02,
+    .doctor03 {
+        display: none;
+    }
+.box2 h5{
+    margin-top: -12px;
+}
+
+
+    .border-icon {
+        /* margin: 20px 0; */
+        position: relative;
+        right: 160px;
+
+
+    }
+
+    .inputUser,
+    .inputPassword,
+    .inputEmail,
+    .inputPhone {
+        margin-left: -100px;
+        width: 220%;
+    }
+
+    .textArea {
+        width: 220%;
+        margin-left: -100px;
+    }
+
+    .check {
+        margin-left: -150px;
+    }
+
+    .labels {
+        margin-top: 11px;
+    }
+
+    .submit {
+        position: relative;
+        right: 30px;
+    }
+
+    .contacts {
+        margin-top: 50px;
+        margin-left: -40px;
+        text-align: center;
+    }
+
+    .content {
+        padding: 5px 0;
+    }
+
+    .doc2 {
+        display: none;
+    }
+
+    .block1 {
+        display: block;
+    }
+
+    .process h2 {
+        font-size: 29px;
+        font-weight: bold;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .alerts {
+        display: block;
+        margin-left: 50px;
+    }
+
+    .btns {
+        display: block;
+        margin-top: 50px;
+        margin-left: -2px !important;
+    }
+
+    .review {
+        height: 355vh;
+    }
+
+    .rate div {
+        height: 50vh;
+        color: #fff;
+    }
+
+    iframe {
+        width: 90%;
+    }
+
+
+    .rate-2 {
+        position: relative;
+        right: 30px
+    }
+
+    .care-1 {
+        display: block !important;
+        width: 100% !important;
+        margin-left: -100px;
+        height: 50vh;
+    }
+
+    .care {
+        display: block !important;
+        width: 170% !important;
+        margin-left: -100px;
+        height: 80vh !important;
+    }
+
+    .dental div {
+        margin: 10px 0;
+    }
+
+
+    
+.main-footer {
+    background-color: #152847;
+    color: #fff !important;
+    padding-top: 80px;
+}
+
+
+    .footer-1 button {
+        border: 2px solid #33B9CB !important;
+    }
+
+    .footer-1 {
+
+
+        padding: 0px 0px;
+        margin: 0px 0px;
+        padding-top: 5px;
+        margin-top: 10px;
+    }
+
+    .footer h1 {
+        font-size: 18px !important;
+    }
+
+    .footer-1 input {
+        padding-bottom: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+        border: none;
+        outline: none;
+        position: relative;
+        z-index: 50;
+    }
+
+
+
+    .footer-1 button {
+
+        height: 7vh;
+        padding: 5px 15px;
+        position: relative;
+        top:20px;
+
+
+
+    }
+
+    .elipse2 {
+        display: none;
+    }
+
+    .footer-item {
+        margin: 50px 0;
+    }
+
+    .footer-3 {
+        height: 50vh;
+    }
+}
